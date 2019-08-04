@@ -1,0 +1,36 @@
+
+<div class="container" style="margin-top:20px">
+  <div class="row">
+    <div class="col-sm">
+
+		<ul class="list-group">
+			<li *ngFor="let subscription of subscriptions"
+			    [ngClass]="{active: isActiveSubscription(subscription)}"
+				(click)="setSubscription(subscription)"
+			    class="list-group-item">
+			    <span [hidden]="subscription.isValid" [ngClass]="{'badge badge-danger':!subscription.isValid}">Invalid</span> {{subscription.subscriptionId}}</li>
+		</ul>
+
+    </div>
+    <div class="col-sm">
+
+		<ul class="list-group">
+			<li *ngFor="let account of accounts"
+			    [ngClass]="{active: isActiveAccount(account)}"
+			    (click)="setAccount(account)"
+			    class="list-group-item"><span [hidden]="account.isValid" [ngClass]="{'badge badge-danger':!account.isValid}">Invalid</span> {{account.name}}</li>
+		</ul>
+
+    </div>
+    <div class="col-sm">
+
+		<ul class="list-group" [hidden]="!activeAccount.name">
+
+			<li class="list-group-item">KeySource: {{activeAccount.keySource}}</li>
+			<li class="list-group-item">canAccessAzureServices: {{activeAccount.canAccessAzureServices}}</li>
+			<li class="list-group-item"><span [hidden]="!activeAccount.isAccessAllowedFromAllNetworks" [ngClass]="{'badge badge-danger':activeAccount.isAccessAllowedFromAllNetworks}">Invalid</span> isAccessAllowedFromAllNetworks: {{activeAccount.isAccessAllowedFromAllNetworks}}</li>
+		</ul>
+
+    </div>
+  </div>
+</div>
