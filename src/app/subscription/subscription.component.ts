@@ -25,8 +25,6 @@ export class SubscriptionComponent implements OnInit {
     this.activeAccount = {} as Account;
     this.activeSubscription = {} as Subscription;
 
-    console.log("Getting the Subs");
-
     this.subscriptionService.getSubscriptions()
       .subscribe((data: Subscription[]) => {
 
@@ -36,9 +34,12 @@ export class SubscriptionComponent implements OnInit {
         }
 
       });
+
+      this.setSubscription(this.subscriptions[0]);
   }
 
   ngOnInit() {
+
   }
 
   isActiveSubscription(subscription: Subscription) {
@@ -50,8 +51,13 @@ export class SubscriptionComponent implements OnInit {
   };
 
   setSubscription(subscription: Subscription){
-    this.activeSubscription = subscription;
-    this.accounts = subscription.accounts;
+
+    this.activeAccount = {} as Account;
+
+    if (subscription && subscription.accounts && subscription.accounts.length > 0) {
+      this.activeSubscription = subscription
+      this.accounts = subscription.accounts;
+    }
   }
 
   setAccount(account: Account){

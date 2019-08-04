@@ -1,36 +1,106 @@
+<div class="container-fluid">
 
-<div class="container" style="margin-top:20px">
-  <div class="row">
-    <div class="col-sm">
+    <div class="row">
 
-		<ul class="list-group">
-			<li *ngFor="let subscription of subscriptions"
-			    [ngClass]="{active: isActiveSubscription(subscription)}"
-				(click)="setSubscription(subscription)"
-			    class="list-group-item">
-			    <span [hidden]="subscription.isValid" [ngClass]="{'badge badge-danger':!subscription.isValid}">Invalid</span> {{subscription.subscriptionId}}</li>
-		</ul>
+        <div class="col-3 px-1 position-fixed" id="sticky-sidebar">
+
+		      <nav class="navbar navbar-dark bg-info navbar-fixed-side">
+
+				<ul class="list-group">
+
+					<h4 class="navbar-text" style="color:white">Subscriptions</h4>
+
+					<li *ngFor="let subscription of subscriptions"
+					    [ngClass]="{active: isActiveSubscription(subscription)}"
+						(click)="setSubscription(subscription)"
+					    class="list-group-item">
+					    {{subscription.subscriptionId}}
+						<span [hidden]="subscription.isValid"
+						      class="badge badge-danger"> Invalid</span></li>
+
+					<h4 class="navbar-text" style="color:white">Storage Accounts</h4>
+
+					<li *ngFor="let account of accounts"
+					    [ngClass]="{active: isActiveAccount(account)}"
+					    (click)="setAccount(account)"
+					    class="list-group-item">
+					      >  {{account.name}}
+						<span
+					      [hidden]="account.isValid"
+					      class="badge badge-danger">Invalid</span></li>
+				</ul>
+
+		      </nav>
+
+        </div> <!-- end sidebar -->
+
+
+        <div class="col offset-3" id="main">
+
+		    <div class="col-sm" style="margin-top: 20px">
+
+		    	<table class="table table-striped" [hidden]="!activeAccount.name">
+		    		<tbody>
+		    			<tr>
+		    				<td>🔑 Key Source</td>
+		    				<td>{{activeAccount.keySource}}
+								<span
+								[hidden]="activeAccount.keySource == 'Microsoft.storage'"
+								class="badge badge-warning">Using Microsoft-managed keys</span>
+		    				</td>
+		    			</tr>
+		    			<tr>
+		    				<td>Can Access Azure Services</td>
+		    				<td>{{activeAccount.canAccessAzureServices ? '✅' : '❌' }}</td>
+		    			</tr>
+		    			<tr>
+		    				<td>🌍 Vnet Limiting</td>
+		    				<td>
+		    					{{activeAccount.isAccessAllowedFromAllNetworks ? '❌' : '✅' }}
+		    					<span>{{activeAccount.ipAccesses}}</span>
+		    					<span
+							      [hidden]="!activeAccount.isAccessAllowedFromAllNetworks"
+							      class="badge badge-danger">Access allowed from all networks</span>
+		    				</td>
+		    			</tr>
+		    			<tr>
+		    				<td>🔐 Encryption Status</td>
+		    				<td>
+		    					<ul class="list-group">
+		    						<li class="list-group-item" *ngFor="let item of activeAccount.encryptionStatusMap | keyvalue">
+		    							{{item.value ? '✅' : '❌' }} {{item.key}}
+		    						<span
+								      [hidden]="item.value"
+								      class="badge badge-warning">Encryption Disabled</span>
+		    						</li>
+		    					</ul>
+		    				</td>
+		    			</tr>
+
+		    			<tr>
+		    				<td>🏴‍☠️ Private Blobs</td>
+							<td>
+								<ul class="list-group">
+									<li *ngFor="let container of activeAccount.containers"
+									class="list-group-item">{{container.isPublicAccess == "ON" ? '❌' : '✅' }} {{container.name}}
+		    						<span
+								      [hidden]="container.isPublicAccess=='OFF'"
+								      class="badge badge-danger">Public Access Enabled</span>
+									</li>
+
+								</ul>
+							</td>
+		    			</tr>
+
+		    		</tbody>
+
+		    	</table>
+
+		    </div>
+
+        </div>
 
     </div>
-    <div class="col-sm">
-
-		<ul class="list-group">
-			<li *ngFor="let account of accounts"
-			    [ngClass]="{active: isActiveAccount(account)}"
-			    (click)="setAccount(account)"
-			    class="list-group-item"><span [hidden]="account.isValid" [ngClass]="{'badge badge-danger':!account.isValid}">Invalid</span> {{account.name}}</li>
-		</ul>
-
-    </div>
-    <div class="col-sm">
-
-		<ul class="list-group" [hidden]="!activeAccount.name">
-
-			<li class="list-group-item">KeySource: {{activeAccount.keySource}}</li>
-			<li class="list-group-item">canAccessAzureServices: {{activeAccount.canAccessAzureServices}}</li>
-			<li class="list-group-item"><span [hidden]="!activeAccount.isAccessAllowedFromAllNetworks" [ngClass]="{'badge badge-danger':activeAccount.isAccessAllowedFromAllNetworks}">Invalid</span> isAccessAllowedFromAllNetworks: {{activeAccount.isAccessAllowedFromAllNetworks}}</li>
-		</ul>
-
-    </div>
-  </div>
 </div>
+
+

@@ -14,7 +14,7 @@
 						"name": "insights-log-auditevent"
 					},
 					{
-						"isPublicAccess": "OFF",
+						"isPublicAccess": "ON",
 						"name": "insights-metrics-pt1m"
 					}
 
