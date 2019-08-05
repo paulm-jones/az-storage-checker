@@ -1,11 +1,13 @@
 [
 	{
 		"subscriptionId": "e5073931-8a11-4514-94f0-d8254980dce1",
+		"subscriptionName": "SHAREDSERVICES_DEV",
 		"isValid": false,
 		"accounts": []
 	},
 	{
 		"subscriptionId": "e5073931-8a11-4514-94f0-d8254980dce1",
+		"subscriptionName": "SHAREDSERVICES_PROD",
 		"isValid": true,
 		"accounts": [{
 				"isValid": true,
@@ -46,7 +48,8 @@
 		]
 	},
 	{
-		"subscriptionId": "TSS_SHAREDSERVICES_DEV",
+		"subscriptionId": "some-long-guid",
+		"subscriptionName": "DEPT_SUB_ENV",
 		"isValid": false,
 		"accounts": [{
 				"isValid": true,

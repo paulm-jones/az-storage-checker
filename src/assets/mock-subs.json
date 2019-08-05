@@ -1,11 +1,13 @@
 [
 	{
 		"subscriptionId": "e5073931-8a11-4514-94f0-d8254980dce1",
+		"subscriptionName": "No Auth for this Sub",
 		"isValid": false,
 		"accounts": []
 	},
 	{
 		"subscriptionId": "e5073931-8a11-4514-94f0-d8254980dce1",
+		"subscriptionName": "SOME_SUB_NAME",
 		"isValid": true,
 		"accounts": [{
 				"isValid": true,
@@ -46,7 +48,728 @@
 		]
 	},
 	{
-		"subscriptionId": "TSS_SHAREDSERVICES_DEV",
+		"subscriptionId": "this-is-a-guid",
+		"subscriptionName": "SHAREDSERVICES_DEV",
+		"isValid": false,
+		"accounts": [{
+				"isValid": true,
+				"name": "accountA",
+				"keySource": "Microsoft.Storage",
+				"isAccessAllowedFromAllNetworks": false,
+				"canAccessAzureServices": true
+			},
+			{
+				"isValid": false,
+				"name": "accountB",
+				"keySource": "Microsoft.KeyVault",
+				"isAccessAllowedFromAllNetworks": true,
+				"canAccessAzureServices": true
+			}
+		]
+	},
+	{
+		"subscriptionId": "this-is-a-guid",
+		"subscriptionName": "SHAREDSERVICES_DEV",
+		"isValid": false,
+		"accounts": [{
+				"isValid": true,
+				"name": "accountA",
+				"keySource": "Microsoft.Storage",
+				"isAccessAllowedFromAllNetworks": false,
+				"canAccessAzureServices": true
+			},
+			{
+				"isValid": false,
+				"name": "accountB",
+				"keySource": "Microsoft.KeyVault",
+				"isAccessAllowedFromAllNetworks": true,
+				"canAccessAzureServices": true
+			}
+		]
+	},
+	{
+		"subscriptionId": "this-is-a-guid",
+		"subscriptionName": "SHAREDSERVICES_DEV",
+		"isValid": false,
+		"accounts": [{
+				"isValid": true,
+				"name": "accountA",
+				"keySource": "Microsoft.Storage",
+				"isAccessAllowedFromAllNetworks": false,
+				"canAccessAzureServices": true
+			},
+			{
+				"isValid": false,
+				"name": "accountB",
+				"keySource": "Microsoft.KeyVault",
+				"isAccessAllowedFromAllNetworks": true,
+				"canAccessAzureServices": true
+			}
+		]
+	},
+	{
+		"subscriptionId": "this-is-a-guid",
+		"subscriptionName": "SHAREDSERVICES_DEV",
+		"isValid": false,
+		"accounts": [{
+				"isValid": true,
+				"name": "accountA",
+				"keySource": "Microsoft.Storage",
+				"isAccessAllowedFromAllNetworks": false,
+				"canAccessAzureServices": true
+			},
+			{
+				"isValid": false,
+				"name": "accountB",
+				"keySource": "Microsoft.KeyVault",
+				"isAccessAllowedFromAllNetworks": true,
+				"canAccessAzureServices": true
+			}
+		]
+	},
+	{
+		"subscriptionId": "this-is-a-guid",
+		"subscriptionName": "SHAREDSERVICES_DEV",
+		"isValid": false,
+		"accounts": [{
+				"isValid": true,
+				"name": "accountA",
+				"keySource": "Microsoft.Storage",
+				"isAccessAllowedFromAllNetworks": false,
+				"canAccessAzureServices": true
+			},
+			{
+				"isValid": false,
+				"name": "accountB",
+				"keySource": "Microsoft.KeyVault",
+				"isAccessAllowedFromAllNetworks": true,
+				"canAccessAzureServices": true
+			}
+		]
+	},
+	{
+		"subscriptionId": "this-is-a-guid",
+		"subscriptionName": "SHAREDSERVICES_DEV",
+		"isValid": false,
+		"accounts": [{
+				"isValid": true,
+				"name": "accountA",
+				"keySource": "Microsoft.Storage",
+				"isAccessAllowedFromAllNetworks": false,
+				"canAccessAzureServices": true
+			},
+			{
+				"isValid": false,
+				"name": "accountB",
+				"keySource": "Microsoft.KeyVault",
+				"isAccessAllowedFromAllNetworks": true,
+				"canAccessAzureServices": true
+			}
+		]
+	},
+	{
+		"subscriptionId": "this-is-a-guid",
+		"subscriptionName": "SHAREDSERVICES_DEV",
+		"isValid": false,
+		"accounts": [{
+				"isValid": true,
+				"name": "accountA",
+				"keySource": "Microsoft.Storage",
+				"isAccessAllowedFromAllNetworks": false,
+				"canAccessAzureServices": true
+			},
+			{
+				"isValid": false,
+				"name": "accountB",
+				"keySource": "Microsoft.KeyVault",
+				"isAccessAllowedFromAllNetworks": true,
+				"canAccessAzureServices": true
+			}
+		]
+	},
+	{
+		"subscriptionId": "this-is-a-guid",
+		"subscriptionName": "SHAREDSERVICES_DEV",
+		"isValid": false,
+		"accounts": [{
+				"isValid": true,
+				"name": "accountA",
+				"keySource": "Microsoft.Storage",
+				"isAccessAllowedFromAllNetworks": false,
+				"canAccessAzureServices": true
+			},
+			{
+				"isValid": false,
+				"name": "accountB",
+				"keySource": "Microsoft.KeyVault",
+				"isAccessAllowedFromAllNetworks": true,
+				"canAccessAzureServices": true
+			}
+		]
+	},
+	{
+		"subscriptionId": "this-is-a-guid",
+		"subscriptionName": "SHAREDSERVICES_DEV",
+		"isValid": false,
+		"accounts": [{
+				"isValid": true,
+				"name": "accountA",
+				"keySource": "Microsoft.Storage",
+				"isAccessAllowedFromAllNetworks": false,
+				"canAccessAzureServices": true
+			},
+			{
+				"isValid": false,
+				"name": "accountB",
+				"keySource": "Microsoft.KeyVault",
+				"isAccessAllowedFromAllNetworks": true,
+				"canAccessAzureServices": true
+			}
+		]
+	},
+	{
+		"subscriptionId": "this-is-a-guid",
+		"subscriptionName": "SHAREDSERVICES_DEV",
+		"isValid": false,
+		"accounts": [{
+				"isValid": true,
+				"name": "accountA",
+				"keySource": "Microsoft.Storage",
+				"isAccessAllowedFromAllNetworks": false,
+				"canAccessAzureServices": true
+			},
+			{
+				"isValid": false,
+				"name": "accountB",
+				"keySource": "Microsoft.KeyVault",
+				"isAccessAllowedFromAllNetworks": true,
+				"canAccessAzureServices": true
+			}
+		]
+	},
+	{
+		"subscriptionId": "this-is-a-guid",
+		"subscriptionName": "SHAREDSERVICES_DEV",
+		"isValid": false,
+		"accounts": [{
+				"isValid": true,
+				"name": "accountA",
+				"keySource": "Microsoft.Storage",
+				"isAccessAllowedFromAllNetworks": false,
+				"canAccessAzureServices": true
+			},
+			{
+				"isValid": false,
+				"name": "accountB",
+				"keySource": "Microsoft.KeyVault",
+				"isAccessAllowedFromAllNetworks": true,
+				"canAccessAzureServices": true
+			}
+		]
+	},
+	{
+		"subscriptionId": "this-is-a-guid",
+		"subscriptionName": "SHAREDSERVICES_DEV",
+		"isValid": false,
+		"accounts": [{
+				"isValid": true,
+				"name": "accountA",
+				"keySource": "Microsoft.Storage",
+				"isAccessAllowedFromAllNetworks": false,
+				"canAccessAzureServices": true
+			},
+			{
+				"isValid": false,
+				"name": "accountB",
+				"keySource": "Microsoft.KeyVault",
+				"isAccessAllowedFromAllNetworks": true,
+				"canAccessAzureServices": true
+			}
+		]
+	},
+	{
+		"subscriptionId": "this-is-a-guid",
+		"subscriptionName": "SHAREDSERVICES_DEV",
+		"isValid": false,
+		"accounts": [{
+				"isValid": true,
+				"name": "accountA",
+				"keySource": "Microsoft.Storage",
+				"isAccessAllowedFromAllNetworks": false,
+				"canAccessAzureServices": true
+			},
+			{
+				"isValid": false,
+				"name": "accountB",
+				"keySource": "Microsoft.KeyVault",
+				"isAccessAllowedFromAllNetworks": true,
+				"canAccessAzureServices": true
+			}
+		]
+	},
+	{
+		"subscriptionId": "this-is-a-guid",
+		"subscriptionName": "SHAREDSERVICES_DEV",
+		"isValid": false,
+		"accounts": [{
+				"isValid": true,
+				"name": "accountA",
+				"keySource": "Microsoft.Storage",
+				"isAccessAllowedFromAllNetworks": false,
+				"canAccessAzureServices": true
+			},
+			{
+				"isValid": false,
+				"name": "accountB",
+				"keySource": "Microsoft.KeyVault",
+				"isAccessAllowedFromAllNetworks": true,
+				"canAccessAzureServices": true
+			}
+		]
+	},
+	{
+		"subscriptionId": "this-is-a-guid",
+		"subscriptionName": "SHAREDSERVICES_DEV",
+		"isValid": false,
+		"accounts": [{
+				"isValid": true,
+				"name": "accountA",
+				"keySource": "Microsoft.Storage",
+				"isAccessAllowedFromAllNetworks": false,
+				"canAccessAzureServices": true
+			},
+			{
+				"isValid": false,
+				"name": "accountB",
+				"keySource": "Microsoft.KeyVault",
+				"isAccessAllowedFromAllNetworks": true,
+				"canAccessAzureServices": true
+			}
+		]
+	},
+	{
+		"subscriptionId": "this-is-a-guid",
+		"subscriptionName": "SHAREDSERVICES_DEV",
+		"isValid": false,
+		"accounts": [{
+				"isValid": true,
+				"name": "accountA",
+				"keySource": "Microsoft.Storage",
+				"isAccessAllowedFromAllNetworks": false,
+				"canAccessAzureServices": true
+			},
+			{
+				"isValid": false,
+				"name": "accountB",
+				"keySource": "Microsoft.KeyVault",
+				"isAccessAllowedFromAllNetworks": true,
+				"canAccessAzureServices": true
+			}
+		]
+	},
+	{
+		"subscriptionId": "this-is-a-guid",
+		"subscriptionName": "SHAREDSERVICES_DEV",
+		"isValid": false,
+		"accounts": [{
+				"isValid": true,
+				"name": "accountA",
+				"keySource": "Microsoft.Storage",
+				"isAccessAllowedFromAllNetworks": false,
+				"canAccessAzureServices": true
+			},
+			{
+				"isValid": false,
+				"name": "accountB",
+				"keySource": "Microsoft.KeyVault",
+				"isAccessAllowedFromAllNetworks": true,
+				"canAccessAzureServices": true
+			}
+		]
+	},
+	{
+		"subscriptionId": "this-is-a-guid",
+		"subscriptionName": "SHAREDSERVICES_DEV",
+		"isValid": false,
+		"accounts": [{
+				"isValid": true,
+				"name": "accountA",
+				"keySource": "Microsoft.Storage",
+				"isAccessAllowedFromAllNetworks": false,
+				"canAccessAzureServices": true
+			},
+			{
+				"isValid": false,
+				"name": "accountB",
+				"keySource": "Microsoft.KeyVault",
+				"isAccessAllowedFromAllNetworks": true,
+				"canAccessAzureServices": true
+			}
+		]
+	},
+	{
+		"subscriptionId": "this-is-a-guid",
+		"subscriptionName": "SHAREDSERVICES_DEV",
+		"isValid": false,
+		"accounts": [{
+				"isValid": true,
+				"name": "accountA",
+				"keySource": "Microsoft.Storage",
+				"isAccessAllowedFromAllNetworks": false,
+				"canAccessAzureServices": true
+			},
+			{
+				"isValid": false,
+				"name": "accountB",
+				"keySource": "Microsoft.KeyVault",
+				"isAccessAllowedFromAllNetworks": true,
+				"canAccessAzureServices": true
+			}
+		]
+	},
+	{
+		"subscriptionId": "this-is-a-guid",
+		"subscriptionName": "SHAREDSERVICES_DEV",
+		"isValid": false,
+		"accounts": [{
+				"isValid": true,
+				"name": "accountA",
+				"keySource": "Microsoft.Storage",
+				"isAccessAllowedFromAllNetworks": false,
+				"canAccessAzureServices": true
+			},
+			{
+				"isValid": false,
+				"name": "accountB",
+				"keySource": "Microsoft.KeyVault",
+				"isAccessAllowedFromAllNetworks": true,
+				"canAccessAzureServices": true
+			}
+		]
+	},
+	{
+		"subscriptionId": "this-is-a-guid",
+		"subscriptionName": "SHAREDSERVICES_DEV",
+		"isValid": false,
+		"accounts": [{
+				"isValid": true,
+				"name": "accountA",
+				"keySource": "Microsoft.Storage",
+				"isAccessAllowedFromAllNetworks": false,
+				"canAccessAzureServices": true
+			},
+			{
+				"isValid": false,
+				"name": "accountB",
+				"keySource": "Microsoft.KeyVault",
+				"isAccessAllowedFromAllNetworks": true,
+				"canAccessAzureServices": true
+			}
+		]
+	},
+	{
+		"subscriptionId": "this-is-a-guid",
+		"subscriptionName": "SHAREDSERVICES_DEV",
+		"isValid": false,
+		"accounts": [{
+				"isValid": true,
+				"name": "accountA",
+				"keySource": "Microsoft.Storage",
+				"isAccessAllowedFromAllNetworks": false,
+				"canAccessAzureServices": true
+			},
+			{
+				"isValid": false,
+				"name": "accountB",
+				"keySource": "Microsoft.KeyVault",
+				"isAccessAllowedFromAllNetworks": true,
+				"canAccessAzureServices": true
+			}
+		]
+	},
+	{
+		"subscriptionId": "this-is-a-guid",
+		"subscriptionName": "SHAREDSERVICES_DEV",
+		"isValid": false,
+		"accounts": [{
+				"isValid": true,
+				"name": "accountA",
+				"keySource": "Microsoft.Storage",
+				"isAccessAllowedFromAllNetworks": false,
+				"canAccessAzureServices": true
+			},
+			{
+				"isValid": false,
+				"name": "accountB",
+				"keySource": "Microsoft.KeyVault",
+				"isAccessAllowedFromAllNetworks": true,
+				"canAccessAzureServices": true
+			}
+		]
+	},
+	{
+		"subscriptionId": "this-is-a-guid",
+		"subscriptionName": "SHAREDSERVICES_DEV",
+		"isValid": false,
+		"accounts": [{
+				"isValid": true,
+				"name": "accountA",
+				"keySource": "Microsoft.Storage",
+				"isAccessAllowedFromAllNetworks": false,
+				"canAccessAzureServices": true
+			},
+			{
+				"isValid": false,
+				"name": "accountB",
+				"keySource": "Microsoft.KeyVault",
+				"isAccessAllowedFromAllNetworks": true,
+				"canAccessAzureServices": true
+			}
+		]
+	},
+	{
+		"subscriptionId": "this-is-a-guid",
+		"subscriptionName": "SHAREDSERVICES_DEV",
+		"isValid": false,
+		"accounts": [{
+				"isValid": true,
+				"name": "accountA",
+				"keySource": "Microsoft.Storage",
+				"isAccessAllowedFromAllNetworks": false,
+				"canAccessAzureServices": true
+			},
+			{
+				"isValid": false,
+				"name": "accountB",
+				"keySource": "Microsoft.KeyVault",
+				"isAccessAllowedFromAllNetworks": true,
+				"canAccessAzureServices": true
+			}
+		]
+	},
+	{
+		"subscriptionId": "this-is-a-guid",
+		"subscriptionName": "SHAREDSERVICES_DEV",
+		"isValid": false,
+		"accounts": [{
+				"isValid": true,
+				"name": "accountA",
+				"keySource": "Microsoft.Storage",
+				"isAccessAllowedFromAllNetworks": false,
+				"canAccessAzureServices": true
+			},
+			{
+				"isValid": false,
+				"name": "accountB",
+				"keySource": "Microsoft.KeyVault",
+				"isAccessAllowedFromAllNetworks": true,
+				"canAccessAzureServices": true
+			}
+		]
+	},
+	{
+		"subscriptionId": "this-is-a-guid",
+		"subscriptionName": "SHAREDSERVICES_DEV",
+		"isValid": false,
+		"accounts": [{
+				"isValid": true,
+				"name": "accountA",
+				"keySource": "Microsoft.Storage",
+				"isAccessAllowedFromAllNetworks": false,
+				"canAccessAzureServices": true
+			},
+			{
+				"isValid": false,
+				"name": "accountB",
+				"keySource": "Microsoft.KeyVault",
+				"isAccessAllowedFromAllNetworks": true,
+				"canAccessAzureServices": true
+			}
+		]
+	},
+	{
+		"subscriptionId": "this-is-a-guid",
+		"subscriptionName": "SHAREDSERVICES_DEV",
+		"isValid": false,
+		"accounts": [{
+				"isValid": true,
+				"name": "accountA",
+				"keySource": "Microsoft.Storage",
+				"isAccessAllowedFromAllNetworks": false,
+				"canAccessAzureServices": true
+			},
+			{
+				"isValid": false,
+				"name": "accountB",
+				"keySource": "Microsoft.KeyVault",
+				"isAccessAllowedFromAllNetworks": true,
+				"canAccessAzureServices": true
+			}
+		]
+	},
+	{
+		"subscriptionId": "this-is-a-guid",
+		"subscriptionName": "SHAREDSERVICES_DEV",
+		"isValid": false,
+		"accounts": [{
+				"isValid": true,
+				"name": "accountA",
+				"keySource": "Microsoft.Storage",
+				"isAccessAllowedFromAllNetworks": false,
+				"canAccessAzureServices": true
+			},
+			{
+				"isValid": false,
+				"name": "accountB",
+				"keySource": "Microsoft.KeyVault",
+				"isAccessAllowedFromAllNetworks": true,
+				"canAccessAzureServices": true
+			}
+		]
+	},
+	{
+		"subscriptionId": "this-is-a-guid",
+		"subscriptionName": "SHAREDSERVICES_DEV",
+		"isValid": false,
+		"accounts": [{
+				"isValid": true,
+				"name": "accountA",
+				"keySource": "Microsoft.Storage",
+				"isAccessAllowedFromAllNetworks": false,
+				"canAccessAzureServices": true
+			},
+			{
+				"isValid": false,
+				"name": "accountB",
+				"keySource": "Microsoft.KeyVault",
+				"isAccessAllowedFromAllNetworks": true,
+				"canAccessAzureServices": true
+			}
+		]
+	},
+	{
+		"subscriptionId": "this-is-a-guid",
+		"subscriptionName": "SHAREDSERVICES_DEV",
+		"isValid": false,
+		"accounts": [{
+				"isValid": true,
+				"name": "accountA",
+				"keySource": "Microsoft.Storage",
+				"isAccessAllowedFromAllNetworks": false,
+				"canAccessAzureServices": true
+			},
+			{
+				"isValid": false,
+				"name": "accountB",
+				"keySource": "Microsoft.KeyVault",
+				"isAccessAllowedFromAllNetworks": true,
+				"canAccessAzureServices": true
+			}
+		]
+	},
+	{
+		"subscriptionId": "this-is-a-guid",
+		"subscriptionName": "SHAREDSERVICES_DEV",
+		"isValid": false,
+		"accounts": [{
+				"isValid": true,
+				"name": "accountA",
+				"keySource": "Microsoft.Storage",
+				"isAccessAllowedFromAllNetworks": false,
+				"canAccessAzureServices": true
+			},
+			{
+				"isValid": false,
+				"name": "accountB",
+				"keySource": "Microsoft.KeyVault",
+				"isAccessAllowedFromAllNetworks": true,
+				"canAccessAzureServices": true
+			}
+		]
+	},
+	{
+		"subscriptionId": "this-is-a-guid",
+		"subscriptionName": "SHAREDSERVICES_DEV",
+		"isValid": false,
+		"accounts": [{
+				"isValid": true,
+				"name": "accountA",
+				"keySource": "Microsoft.Storage",
+				"isAccessAllowedFromAllNetworks": false,
+				"canAccessAzureServices": true
+			},
+			{
+				"isValid": false,
+				"name": "accountB",
+				"keySource": "Microsoft.KeyVault",
+				"isAccessAllowedFromAllNetworks": true,
+				"canAccessAzureServices": true
+			}
+		]
+	},
+	{
+		"subscriptionId": "this-is-a-guid",
+		"subscriptionName": "SHAREDSERVICES_DEV",
+		"isValid": false,
+		"accounts": [{
+				"isValid": true,
+				"name": "accountA",
+				"keySource": "Microsoft.Storage",
+				"isAccessAllowedFromAllNetworks": false,
+				"canAccessAzureServices": true
+			},
+			{
+				"isValid": false,
+				"name": "accountB",
+				"keySource": "Microsoft.KeyVault",
+				"isAccessAllowedFromAllNetworks": true,
+				"canAccessAzureServices": true
+			}
+		]
+	},
+	{
+		"subscriptionId": "this-is-a-guid",
+		"subscriptionName": "SHAREDSERVICES_DEV",
+		"isValid": false,
+		"accounts": [{
+				"isValid": true,
+				"name": "accountA",
+				"keySource": "Microsoft.Storage",
+				"isAccessAllowedFromAllNetworks": false,
+				"canAccessAzureServices": true
+			},
+			{
+				"isValid": false,
+				"name": "accountB",
+				"keySource": "Microsoft.KeyVault",
+				"isAccessAllowedFromAllNetworks": true,
+				"canAccessAzureServices": true
+			}
+		]
+	},
+	{
+		"subscriptionId": "this-is-a-guid",
+		"subscriptionName": "SHAREDSERVICES_DEV",
+		"isValid": false,
+		"accounts": [{
+				"isValid": true,
+				"name": "accountA",
+				"keySource": "Microsoft.Storage",
+				"isAccessAllowedFromAllNetworks": false,
+				"canAccessAzureServices": true
+			},
+			{
+				"isValid": false,
+				"name": "accountB",
+				"keySource": "Microsoft.KeyVault",
+				"isAccessAllowedFromAllNetworks": true,
+				"canAccessAzureServices": true
+			}
+		]
+	},
+	{
+		"subscriptionId": "this-is-a-guid",
+		"subscriptionName": "SHAREDSERVICES_DEV",
 		"isValid": false,
 		"accounts": [{
 				"isValid": true,
