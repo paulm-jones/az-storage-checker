@@ -4,11 +4,11 @@
 
         <div class="col-3 px-1 position-fixed" id="sticky-sidebar">
 
-		      <nav class="navbar navbar-dark bg-info navbar-fixed-side">
+		      <nav class="navbar navbar-dark navbar-fixed-side">
 
 				<ul class="list-group">
 
-					<h4 class="navbar-text" style="color:white">Subscriptions</h4>
+					<h4 class="navbar-text text-primary">Subscriptions</h4>
 
 					<li *ngFor="let subscription of subscriptions"
 					    [ngClass]="{active: isActiveSubscription(subscription)}"
@@ -18,7 +18,7 @@
 						<span [hidden]="subscription.isValid"
 						      class="badge badge-danger"> Invalid</span></li>
 
-					<h4 class="navbar-text" style="color:white">Storage Accounts</h4>
+					<h4 class="navbar-text text-primary">Storage Accounts</h4>
 
 					<li *ngFor="let account of accounts"
 					    [ngClass]="{active: isActiveAccount(account)}"

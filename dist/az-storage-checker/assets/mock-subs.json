@@ -1,0 +1,62 @@
+[
+	{
+		"subscriptionId": "e5073931-8a11-4514-94f0-d8254980dce1",
+		"isValid": true,
+		"accounts": [{
+				"isValid": true,
+				"name": "gctopaasenable3devkv1",
+				"keySource": "Microsoft.Storage",
+				"isAccessAllowedFromAllNetworks": false,
+				"canAccessAzureServices": true,
+				"containers": [
+					{
+						"isPublicAccess": "OFF",
+						"name": "insights-log-auditevent"
+					},
+					{
+						"isPublicAccess": "ON",
+						"name": "insights-metrics-pt1m"
+					}
+
+				],
+				"ipAccesses": [
+					"192.240.214.17",
+					"192.240.212.3"
+				],
+				"encryptionStatusMap": {
+					"Table": false,
+					"Queue": false,
+					"Blob": true,
+					"File": true
+				}
+			},
+			{
+				"isValid": true,
+				"name": "account2",
+				"keySource": "Microsoft.KeyVault",
+				"isAccessAllowedFromAllNetworks": false,
+				"canAccessAzureServices": true
+
+			}
+		]
+	},
+	{
+		"subscriptionId": "TSS_SHAREDSERVICES_DEV",
+		"isValid": false,
+		"accounts": [{
+				"isValid": true,
+				"name": "accountA",
+				"keySource": "Microsoft.Storage",
+				"isAccessAllowedFromAllNetworks": false,
+				"canAccessAzureServices": true
+			},
+			{
+				"isValid": false,
+				"name": "accountB",
+				"keySource": "Microsoft.KeyVault",
+				"isAccessAllowedFromAllNetworks": true,
+				"canAccessAzureServices": true
+			}
+		]
+	}
+]
