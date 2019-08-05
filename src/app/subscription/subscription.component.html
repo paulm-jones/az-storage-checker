@@ -6,12 +6,13 @@
 
 		      <nav class="navbar navbar-dark navbar-fixed-side">
 
-				<ul class="list-group">
+				<ul class="list-group menu">
 
 					<h4 class="navbar-text text-primary">Subscriptions</h4>
 
 					<li *ngFor="let subscription of subscriptions"
 					    [ngClass]="{active: isActiveSubscription(subscription)}"
+					    [hidden]="subscription.accounts.length===0"
 						(click)="setSubscription(subscription)"
 					    class="list-group-item">
 					    {{subscription.subscriptionId}}
